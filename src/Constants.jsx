@@ -1,11 +1,16 @@
-import destinationImage1 from "./assets/destinationImage1.avif";
-import destinationImage2 from "./assets/destinationImage2.avif";
-import destinationImage3 from "./assets/destinationImage3.avif";
-import destinationImage4 from "./assets/destinationImage4.avif";
-import destinationImage5 from "./assets/destinationImage5.avif";
-import destinationImage6 from "./assets/destinationImage6.avif";
-import destinationImage7 from "./assets/destinationImage7.avif";
-import destinationImage8 from "./assets/destinationImage8.avif";
+import destinationImage1 from "./assets/destinationImages/destinationImage1.avif";
+import destinationImage2 from "./assets/destinationImages/destinationImage2.avif";
+import destinationImage3 from "./assets/destinationImages/destinationImage3.avif";
+import destinationImage4 from "./assets/destinationImages/destinationImage4.avif";
+import destinationImage5 from "./assets/destinationImages/destinationImage5.avif";
+import destinationImage6 from "./assets/destinationImages/destinationImage6.avif";
+import destinationImage7 from "./assets/destinationImages/destinationImage7.avif";
+import destinationImage8 from "./assets/destinationImages/destinationImage8.avif";
+import thumbnailImage1 from "./assets/thumbnail-Image/thumbnail1.webp";
+import thumbnailImage2 from "./assets/thumbnail-Image/thumbnail2.webp";
+import thumbnailImage3 from "./assets/thumbnail-Image/thumbnail3.webp";
+import thumbnailImage4 from "./assets/thumbnail-Image/thumbnail4.webp";
+import thumbnailImage5 from "./assets/thumbnail-Image/thumbnail5.webp";
 
 export const worldDestinationDetails = [
   {
@@ -37,6 +42,7 @@ export const worldDestinationDetails = [
     image: destinationImage4,
   },
 ];
+
 export const indiaDestinationDetails = [
   {
     destinationName: "Jammu and Kashmir",
@@ -65,5 +71,33 @@ export const indiaDestinationDetails = [
     totalDepartures: "20",
     totalGuests: "17,556",
     image: destinationImage8,
+  },
+];
+
+export const thumbNails = [
+  {
+    image: thumbnailImage1,
+    tours: "146",
+    place: "Ahmedabad",
+  },
+  {
+    image: thumbnailImage2,
+    tours: "126",
+    place: "Bangalore",
+  },
+  {
+    image: thumbnailImage3,
+    tours: "116",
+    place: "Kolkata",
+  },
+  {
+    image: thumbnailImage4,
+    tours: "305",
+    place: "Mumbai",
+  },
+  {
+    image: thumbnailImage5,
+    tours: "33",
+    place: "Pune",
   },
 ];
