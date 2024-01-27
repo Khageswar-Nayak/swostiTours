@@ -23,7 +23,6 @@
 
 #carouselExampleIndicators {
   padding: 6rem 3rem 0;
-  height: 70vh;
 }
 
 .carousel-inner {
@@ -52,4 +51,27 @@
   border-radius: 50%;
   right: 77px;
   top: 215px;
+}
+
+/* ------------------------------------------------- destinations ---------------------------- */
+.destination-button {
+  text-align: center;
+}
+
+.destination-button button {
+  min-width: 175px;
+  margin: 10px 8px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 20px;
+  height: 40px;
+  background-color: #dfe4f0;
+  border-radius: 10px;
+  border: 0;
+}
+
+.destinations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }

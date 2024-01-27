@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import HomeCarousel from "./components/HomeCarousel";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <HomeCarousel />
+      <Home />
     </>
   );
 };
