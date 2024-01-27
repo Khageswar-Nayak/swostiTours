@@ -5,7 +5,11 @@ import homeBanner3 from "../assets/homeBanner-3.avif";
 
 const HomeCarousel = () => {
   return (
-    <div id="carouselExampleIndicators" className="carousel slide">
+    <div
+      id="carouselExampleIndicators"
+      className="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div className="carousel-indicators">
         <button
           type="button"

@@ -56,6 +56,7 @@
 /* ------------------------------------------------- destinations ---------------------------- */
 .destination-button {
   text-align: center;
+  margin-top: 5px;
 }
 
 .destination-button button {
@@ -74,4 +75,84 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  padding: 10px 45px;
+  overflow-x: scroll;
+}
+.destinations-card {
+  position: relative;
+  max-height: 220px;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s all ease-in-out;
+}
+.destination_image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.destinationName {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 15px 5px 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px 0 0;
+}
+
+.destination-details {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: calc(100% - 10px);
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.destination-details p:first-child {
+  font-size: 12px;
+  line-height: 1;
+  color: #212221;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  border-right: 1px solid #212221;
+  padding-right: 4px;
+  margin-right: 5px;
+}
+
+.destination-details p:nth-child(2) {
+  font-size: 12px;
+  line-height: 1;
+  color: #212221;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.destination-details p:last-child {
+  font-size: 12px;
+  line-height: 1;
+  color: #212221;
+  margin-bottom: 0;
+  letter-spacing: 0;
 }
