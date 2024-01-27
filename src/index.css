@@ -1,0 +1,55 @@
+/* ------------------------------------------------- navbar ------------------------------- */
+
+.navbar {
+  background-color: #0e1e2c;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 2;
+}
+
+.form-control {
+  width: 42vw;
+}
+
+.navIcons {
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+
+/* ---------------------------------------------------- carousel ---------------------------- */
+
+#carouselExampleIndicators {
+  padding: 6rem 3rem 0;
+  height: 70vh;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  height: 44px;
+  width: 41px;
+  border-radius: 50%;
+  left: 77px;
+  top: 215px;
+}
+
+.carousel-control-next {
+  background-color: black;
+  width: 41px;
+  height: 44px;
+  border-radius: 50%;
+  right: 77px;
+  top: 215px;
+}
