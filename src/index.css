@@ -190,3 +190,31 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+/* --------------------------------------------------- services ------------------------ */
+
+.allServices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.service {
+  display: flex;
+  gap: 10px;
+}
+
+.service img {
+  height: 75px;
+}
+
+.service-details {
+  width: 14rem;
+}
+.service-details h3 {
+  font-size: 17px;
+}
+.service-details p {
+  font-size: 12px;
+}

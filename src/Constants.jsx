@@ -11,6 +11,12 @@ import thumbnailImage2 from "./assets/thumbnail-Image/thumbnail2.webp";
 import thumbnailImage3 from "./assets/thumbnail-Image/thumbnail3.webp";
 import thumbnailImage4 from "./assets/thumbnail-Image/thumbnail4.webp";
 import thumbnailImage5 from "./assets/thumbnail-Image/thumbnail5.webp";
+import serviceImage1 from "./assets/services/accommodation.svg";
+import serviceImage2 from "./assets/services/meals.svg";
+import serviceImage3 from "./assets/services/transport.svg";
+import serviceImage4 from "./assets/services/managers.svg";
+import serviceImage5 from "./assets/services/itinerary.svg";
+import serviceImage6 from "./assets/services/airfare.svg";
 
 export const worldDestinationDetails = [
   {
@@ -99,5 +105,43 @@ export const thumbNails = [
     image: thumbnailImage5,
     tours: "33",
     place: "Pune",
+  },
+];
+
+export const services = [
+  {
+    image: serviceImage1,
+    title: "Accommodation",
+    detail:
+      "Comfortable & convenient hotels cherry picked by our hotel management team.",
+  },
+  {
+    image: serviceImage2,
+    title: "All meals",
+    detail: "Eat to your heart's content Breakfast. Lunch. Dinner.",
+  },
+  {
+    image: serviceImage3,
+    title: "On-tour transport",
+    detail:
+      "Our itineraries include all rail, sea and road transport as part of the itinerary so you can enjoy tension free.",
+  },
+  {
+    image: serviceImage4,
+    title: "Tour managers",
+    detail:
+      "We have an exclusive team of 350 tour managers specialising in India and World tours",
+  },
+  {
+    image: serviceImage5,
+    title: "Best value itinerary",
+    detail:
+      "Our dedicated product & destination research team spends hours curating the best value for money itineraries",
+  },
+  {
+    image: serviceImage6,
+    title: "To and fro airfare",
+    detail:
+      "Veena World tours are inclusive of airfare from many hubs within India unless you pick the joining-leaving option",
   },
 ];
