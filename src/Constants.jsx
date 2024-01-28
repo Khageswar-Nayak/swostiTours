@@ -17,6 +17,10 @@ import serviceImage3 from "./assets/services/transport.svg";
 import serviceImage4 from "./assets/services/managers.svg";
 import serviceImage5 from "./assets/services/itinerary.svg";
 import serviceImage6 from "./assets/services/airfare.svg";
+import achievementSvg1 from "./assets/achievements/smileEmoji.svg";
+import achievementSvg2 from "./assets/achievements/cup.svg";
+import achievementSvg3 from "./assets/achievements/badge.svg";
+import achievementSvg4 from "./assets/achievements/journey.svg";
 
 export const worldDestinationDetails = [
   {
@@ -143,5 +147,28 @@ export const services = [
     title: "To and fro airfare",
     detail:
       "Veena World tours are inclusive of airfare from many hubs within India unless you pick the joining-leaving option",
+  },
+];
+
+export const achievements = [
+  {
+    svg: achievementSvg1,
+    number: "6,94,347",
+    title: "Happy guests",
+  },
+  {
+    svg: achievementSvg2,
+    number: "51,423",
+    title: "Tours completed",
+  },
+  {
+    svg: achievementSvg3,
+    number: "325+",
+    title: "Tour Experts",
+  },
+  {
+    svg: achievementSvg4,
+    number: "2500+",
+    title: "Tour destinations",
   },
 ];
